@@ -1,0 +1,83 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root{
+        font-size: 62.5%;
+        --text-color: #E1E1E6;
+        --header-text-color: #C4C4CC;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://s3-alpha-sig.figma.com/img/c9ac/7980/7ef6911c46c0964afe5ed08f8a9dc507?Expires=1700438400&Signature=DCP1NmcXhdo85HfpnLFxlzEUDvuVEZ61yWpt3aQjdHh5J73EzhbIA6thnQ1rBVK8RRbYEhIFc47Zl7klFbu7v7fz8A0bpm6RBGJHkO1CWYzbGSQMlhfF-B9gd14euCTuj6T7eqp6ZMRqnzcESCwgxwgMp4BLrAZX-vipKtq1njMQ4nkVr0mO8zQrl8sTKvfLhnHfQmoxODsyS0RNjE0sODEWmJWMDUQkWKaJ1UkmVD0HZeObf1S5E9D09aZcwsKGNpJa9LBbsp5KyKi19FIL72SfFLpyS-h~M57f3p6vhSgtMA-mRdqh~vI7Q9x8g1S4LJK71hqfB1UK1ED5jER5fQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-size: 100% 100%;
+        color: white;
+        background-repeat: no-repeat;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 4rem 7.2rem;
+        gap: 3.2rem;
+        font-size: 2.1rem;
+    }
+
+    ul{
+        display: flex;
+        gap: 5.3rem;
+        list-style: none;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    main{
+        height: calc(100vh - 127.6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2.4rem;
+        margin-bottom: 13rem;
+    }
+    main h1{
+        font-size: 4.8rem;
+        font-weight: 700;
+    }
+
+    main button{
+        border: .2rem solid rgb(255, 255, 255);
+        background-color: inherit;
+        color: var(--text-color);
+        padding: 1.2rem 3.2rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        align-items: center;
+        transition: background .6s;
+    }
+
+    button:hover{
+        background-color: white;
+        color: #031820;
+    }
+
+
+   
